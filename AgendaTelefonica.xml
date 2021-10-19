@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE agenda>
+
+<agenda>
+    <contactos>
+        <contacto num="1" nombre="Diego">
+            <apellidos apellido1="Garcia" apellido2="Gordo"></apellidos>
+            <direccion calle="la piruleta" ></direccion>
+        </contacto> 
+
+    </contactos>
+</agenda>
