@@ -2,11 +2,19 @@
 <!DOCTYPE agenda>
 
 <agenda>
+    
     <contactos>
         <contacto num="1" nombre="Diego">
             <apellidos apellido1="Garcia" apellido2="Gordo"></apellidos>
-            <direccion calle="la piruleta" ></direccion>
+            <direccion calle="la piruleta" numero="8" piso="2" letra="A" cp="456325" provincia="Murcia" localidad="Murcia" ></direccion>
+            <telefonos casa="965326589" movil="653217856" trabajo="953167853"></telefonos>
         </contacto> 
 
+        <contacto num="2" nombre="Sara">
+            <apellidos apellido1="Gomez" apellido2="Curras"></apellidos>
+            <direccion calle="del sol" numero="3" piso="1" letra="A" cp="454445" provincia="Murcia" localidad="Murcia" ></direccion>
+            <telefonos casa="965325656" movil="653217446" trabajo="953997853"></telefonos>
+        </contacto> 
     </contactos>
+    
 </agenda>
