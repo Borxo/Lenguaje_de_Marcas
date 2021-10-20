@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE AlumnosMatriculados>
+<cursos>
+    <curso nombre="Administración de sistemas en red">
+        
+        <información>
+            <fechas Inicio ="15/09/2010" Final="30/06/2011"></fechas>
+            <horas numero="4" Periodo="Semanal"></horas>
+            <carácter tipo="Obligatorio"></carácter>
+        </información>
+        
+        <matriculados>
+            
+            <alumno nombre="Ana" apellido1="Fernández" apellido2="Gutiérrez">
+                
+                <identificación>
+                    <dni numero="789654321" Letra="L"></dni>
+                    <pasaporte numero="Sin Información"></pasaporte> 
+                </identificación>
+
+                <direccion calle="El Percebe" numero="13" cp="39302" provincia="Santander" localidad="Santander"></direccion>
+               
+                <contacto>
+                    <telefonos casa="Sin información" movil="789654321"></telefonos>
+                    <email correo="ana.fdezgtrrez@hotmail.com"></email>
+                </contacto>
+
+                <expediente>
+                    <faltas justificadas="Sin Información" nojustificadas="Sin Información"></faltas>
+                    <Notas resultado="Sin Información"></Notas>
+                </expediente>
+
+            </alumno>
+
+        </matriculados>
+        
+    </curso>
+</cursos>

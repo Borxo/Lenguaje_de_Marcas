@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE recetas>
+
+<recetas>
+    
+    <receta nombre="sopa de cebolla">
+         <comensales>
+            <personas numero="2">
+                <ingredientes>
+                    <ingrediente nombre="cebolla" cantidad="300g"></ingrediente>
+                    <ingrediente nombre="caldo de Carne" cantidad="1l"></ingrediente>
+                    <ingrediente nombre="mantequilla" cantidad="50g"></ingrediente>
+                    <ingrediente nombre="Cucharada harina" cantidad="1"></ingrediente>
+                    <ingrediente nombre="queso emmental suizo o gruye rallado" cantidad="50g"></ingrediente>
+                    <ingrediente nombre="pan tostado rebanadas " cantidad="4"></ingrediente>
+                    <ingrediente nombre="tomillo" cantidad="a gusto"></ingrediente>
+                    <ingrediente nombre="hoja laurel" cantidad="1"></ingrediente>
+                    <ingrediente nombre="pimienta" cantidad="a gusto"></ingrediente>
+                </ingredientes>
+            </personas>
+
+            <personas numero="4">
+                <ingredientes>
+                    <ingrediente nombre="cebolla" cantidad="1Kg"></ingrediente>
+                    <ingrediente nombre="caldo de Carne" cantidad="2l"></ingrediente>
+                    <ingrediente nombre="mantequilla" cantidad="100g"></ingrediente>
+                    <ingrediente nombre="Cucharada harina" cantidad="1"></ingrediente>
+                    <ingrediente nombre="queso emmental suizo o gruye rallado" cantidad="100g"></ingrediente>
+                    <ingrediente nombre="pan tostado rebanadas " cantidad="8"></ingrediente>
+                    <ingrediente nombre="tomillo" cantidad="a gusto"></ingrediente>
+                    <ingrediente nombre="hoja laurel" cantidad="1"></ingrediente>
+                    <ingrediente nombre="pimienta" cantidad="a gusto"></ingrediente>
+                </ingredientes>
+            </personas>
+        </comensales>
+
+        <proceso>
+            <paso numero="1">
+                Pelar y partir las cebollas en rodajas finas.
+            </paso>
+
+            <paso numero="2">
+                Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.
+            </paso>
+
+            <paso numero="3">
+                Añadir la harina sin dejar de remover.
+            </paso>
+
+            <paso numero="4">
+                Ponerlo en una cazuela con el caldo, el tomillo y el laurel.
+            </paso>
+
+            <paso numero="5">
+                Dejar cocer a fuego lento durante unos 15 minutos.
+            </paso>
+
+            <paso numero="6">
+                Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.
+            </paso>
+        </proceso>
+    </receta>
+
+    <receta nombre="sopa de pescado">
+        <comensales>
+           <personas numero="2">
+               <ingredientes>
+                   <ingrediente nombre="gambas" cantidad="300g"></ingrediente>
+                   <ingrediente nombre="caldo de pescado" cantidad="1l"></ingrediente>
+                   <ingrediente nombre="mantequilla" cantidad="50g"></ingrediente>
+                   <ingrediente nombre="Cucharada harina" cantidad="1"></ingrediente>
+                   <ingrediente nombre="queso emmental suizo o gruye rallado" cantidad="50g"></ingrediente>
+                   <ingrediente nombre="pan tostado rebanadas " cantidad="4"></ingrediente>
+                   <ingrediente nombre="tomillo" cantidad="a gusto"></ingrediente>
+                   <ingrediente nombre="hoja laurel" cantidad="1"></ingrediente>
+                   <ingrediente nombre="pimienta" cantidad="a gusto"></ingrediente>
+               </ingredientes>
+           </personas>
+
+           <personas numero="4">
+               <ingredientes>
+                   <ingrediente nombre="gambas" cantidad="1Kg"></ingrediente>
+                   <ingrediente nombre="caldo de pescado" cantidad="2l"></ingrediente>
+                   <ingrediente nombre="mantequilla" cantidad="100g"></ingrediente>
+                   <ingrediente nombre="Cucharada harina" cantidad="1"></ingrediente>
+                   <ingrediente nombre="queso emmental suizo o gruye rallado" cantidad="100g"></ingrediente>
+                   <ingrediente nombre="pan tostado rebanadas " cantidad="8"></ingrediente>
+                   <ingrediente nombre="tomillo" cantidad="a gusto"></ingrediente>
+                   <ingrediente nombre="hoja laurel" cantidad="1"></ingrediente>
+                   <ingrediente nombre="pimienta" cantidad="a gusto"></ingrediente>
+               </ingredientes>
+           </personas>
+       </comensales>
+
+       <proceso>
+           <paso numero="1">
+               Pelar y partir las gambas en rodajas finas.
+           </paso>
+
+           <paso numero="2">
+               Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.
+           </paso>
+
+           <paso numero="3">
+               Añadir la harina sin dejar de remover.
+           </paso>
+
+           <paso numero="4">
+               Ponerlo en una cazuela con el caldo, el tomillo y el laurel.
+           </paso>
+
+           <paso numero="5">
+               Dejar cocer a fuego lento durante unos 15 minutos.
+           </paso>
+
+           <paso numero="6">
+               Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.
+           </paso>
+       </proceso>
+   </receta>
+
+</recetas>
