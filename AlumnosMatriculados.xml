@@ -27,7 +27,28 @@
 
                 <expediente>
                     <faltas justificadas="Sin Información" nojustificadas="Sin Información"></faltas>
-                    <Notas resultado="Sin Información"></Notas>
+                    <Nota resultado="Sin Información"></Nota>
+                </expediente>
+
+            </alumno>
+
+            <alumno nombre="Pepito" apellido1="Grillo" apellido2="Sin Información">
+                
+                <identificación>
+                    <dni numero="98765432" Letra="H"></dni>
+                    <pasaporte numero="Sin Información"></pasaporte> 
+                </identificación>
+
+                <direccion calle="Avd. El Pez" numero="5" cp="39401" provincia="Cantabria" localidad="Suances "></direccion>
+               
+                <contacto>
+                    <telefonos casa="Sin información" movil="656566555"></telefonos>
+                    <email correo="yhyh@yahoo.com"></email>
+                </contacto>
+
+                <expediente>
+                    <faltas justificadas="0" nojustificadas="0"></faltas>
+                    <Nota resultado="Apto"></Nota>
                 </expediente>
 
             </alumno>
