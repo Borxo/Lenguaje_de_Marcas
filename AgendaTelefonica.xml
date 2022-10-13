@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<!DOCTYPE agenda>   dddddd
+<!DOCTYPE agenda>   
 <agenda>
     
     <contactos>
@@ -15,5 +15,7 @@
             <telefonos casa="965325656" movil="653217446" trabajo="953997853"></telefonos>
         </contacto> 
     </contactos>
-    
+
+    <id>hola prueba  dddddcd</id>
+
 </agenda>
