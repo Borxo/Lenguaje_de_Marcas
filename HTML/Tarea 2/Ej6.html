@@ -1,0 +1,69 @@
+<!--
+    Pagina: Ej6.
+    Lenguaje: xhtml.
+    Autor: Borxo García.
+    Versión: 1.0V.
+-->
+
+<!-- DOCTYPE. Describe del tipo de documento -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <!--Cabecera.Incluye los metadatos -->
+    <head>
+        <title>Ej6</title>                                                                  <!--Titulo de la pagina -->
+	    <meta http-equiv="Content-Type" content="text/html; charsets=UTF-8" />              <!--Tipo de caracteres utilizados-->
+    </head>
+
+    <!--Cuerpo. Parte principal de la pagina-->
+    <body>
+        <h1 style="text-align:center ;"> Menú del restaurante X</h1>                             <!--Titulo de principal de la pagina-->
+        <div style="text-align:center">                                                          <!--Linea Azul-->
+            <svg xmlns="http://www.w3c.org/2000/svg"   width="800"  height="2"> 
+            <rect id="rec1" x="200" y="0" width="400" height="20" fill="blue" /></svg>
+        </div>
+        <!--Inicio de la listas anidadas-->
+        <ul>
+            <li> 
+                <b>Primero</b> 
+                <!--Lista Sin numerar-->
+                <ul>
+                    <li>Sopa Castellana</li>
+                    <li> <b>Ensalada mixta</b> </li>
+                    <li>lentejas</li>
+                </ul>
+                <!--Fin Lista Sin numerar-->
+            </li>
+            <li> 
+                Segundo
+                <!--Lista Numerada-->
+                <ol>
+                    <li>
+                        <b>Carnes</b>
+                        <!--Lista Sin numerar con cuadrado-->
+                        <ul>
+                            <li type="square">Bistec</li>
+                            <li type="square"> <b>Hamburguesa especial</b> </li>
+                            <li type="square">Carne guisada</li>
+                        </ul>
+                        <!--Fin de Lista Sin numerar con cuadrado-->
+                    </li>
+
+                    <li>
+                        Pescado
+                        <!--Lista Sin numerar con cuadrado-->
+                        <ul>
+                            <li type="square">Dorada a la Placha</li>
+                            <li type="square"> <b>Salmón</b> </li>
+                        </ul>
+                        <!--Fin deLista Sin numerar con cuadrado-->
+                    </li>
+                    <li>Otros</li>  
+                </ol>
+                <!--Fin de Lista Numerada-->
+            </li>
+            <li> <b>Postres</b> </li>
+        </ul>
+        <!--Fin de la Inicio de la listas anidadas-->
+    </body>
+</html>
