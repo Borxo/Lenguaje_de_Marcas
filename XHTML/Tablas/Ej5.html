@@ -1,0 +1,53 @@
+<!--
+    Pagina: Ej5.
+    Lenguaje: xhtml.
+    Autor: Borxo García.
+    Versión: 1.0V.
+-->
+
+<!-- DOCTYPE. Describe del tipo de documento -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <!--Cabecera.Incluye los metadatos -->
+    <head>
+        <title>Ej5</title>                                                                  <!--Titulo de la pagina -->
+	    <meta http-equiv="Content-Type" content="text/html; charsets=UTF-8" />              <!--Tipo de caracteres utilizados-->
+    </head>
+
+    <!--Cuerpo. Parte principal de la pagina-->
+    <body>
+        <h1> Fusión de Columnas</h1>             <!--Titulo Principal de la pagina-->
+        
+        <!--Inicio de la tabla-->
+        <table  border="1px"; style="text-align:center;" width="50%"; cellpadding="30%"; >      
+            
+            <!--Primera Fila--> 
+            <tr>
+                <td colspan="3">A</td>    <!--Combinación de celdas hacia derecha-->
+                <td>B</td>
+            </tr>
+
+            <!--Segundo Fila--> 
+            <tr>
+                <td>C</td>
+                <td colspan="2">D</td>    <!--Combinación de celdas hacia derecha-->
+                <td>E</td>
+            </tr>
+
+            <!--Tercer Fila--> 
+            <tr>
+                <td colspan="5">F</td>    <!--Combinación de celdas hacia derecha-->
+            </tr>
+
+            <!--Cuarto Fila--> 
+            <tr>
+                <td>G</td>
+                <td width=100";>H</td>    <!--Celda ocupa mayor que la celda contigua-->
+                <td>I</td>
+                <td>J</td>
+            </tr>
+        </table>
+        <!--Fin de la tabla-->
+    </body>
+</html>

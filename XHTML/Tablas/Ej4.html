@@ -1,0 +1,54 @@
+<!--
+    Pagina: Ej4.
+    Lenguaje: xhtml.
+    Autor: Borxo García.
+    Versión: 1.0V.
+-->
+
+<!-- DOCTYPE. Describe del tipo de documento -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <!--Cabecera.Incluye los metadatos -->
+    <head>
+        <title>Ej4</title>                                                                  <!--Titulo de la pagina -->
+	    <meta http-equiv="Content-Type" content="text/html; charsets=UTF-8" />              <!--Tipo de caracteres utilizados-->
+    </head>
+
+    <!--Cuerpo. Parte principal de la pagina-->
+    <body>
+        <h1> Fusión de filas</h1>             <!--Titulo Principal de la pagina-->
+        
+        <!--Inicio de la tabla -->
+        <table border="1px"; style="text-align:center"; width="50%"; cellpadding="30%" >      
+           
+            <!--Primera Fila--> 
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>      <!--Combinación de celdas hacia abajo--> 
+                <td>D</td>
+            </tr>
+
+            <!--Primera Fila--> 
+            <tr>
+                <td rowspan="2">E</td>      <!--Combinación de celdas hacia abajo--> 
+                <td>F</td>
+                <td rowspan="3">G</td>      <!--Combinación de celdas hacia abajo--> 
+            </tr>
+
+            <!--Primera Fila--> 
+            <tr>
+                <td>H</td>
+            </tr>
+
+            <!--Primera Fila--> 
+            <tr>
+                <td>I</td>
+                <td>J</td>
+                <td>K</td>
+            </tr>
+        </table>
+        <!--Fin de la tabla con el texto justificado a la izquierda-->
+    </body>
+</html>
