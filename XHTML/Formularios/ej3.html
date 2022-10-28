@@ -1,0 +1,208 @@
+<!--
+    Pagina: Ej3Formularios.
+    Lenguaje: xhtml.
+    Autor: Borxo García.
+    Versión: 1.0V.
+-->
+
+<!-- DOCTYPE. Describe del tipo de documento -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <!--Cabecera.Incluye los metadatos -->
+    <head>
+        <title>Ej3Formularios</title>                                                            <!--Titulo de la pagina.-->
+	    <meta http-equiv="Content-Type" content="text/html; charsets=UTF-8" />                   <!--Tipo de caracteres utilizados.-->
+        
+        <!--Estilos-->
+        <style>
+            legend{
+                text-align: center;
+                color:blue;
+                font-weight: bold;
+              }
+        </style>
+
+    </head>
+
+    <!--Cuerpo. Parte principal de la pagina-->
+    <body>
+        <!--Inicio del Formulario-->
+        <form action="FormularioEnviado.html" method="get" style="width:90%; margin: auto;">                              <!--Vinculado a FormularioEnviado y con el metodo "get" para comprobar los datos enviados,--> 
+                                                                                                                          <!--Tamaño 90% del formulario y centrado.--> 
+            <!--Inicio de datos personales-->
+            <fieldset style="border: 6px double black ;">                                                               <!--Borde del formulario de 6px, tipo double y de color negro-->                      
+                
+                <legend>datos personales</legend>                                                                         <!--Titulo de la sección.-->
+
+                <!--Inicio de Tabla datos personales-->
+                <table>
+
+                    <tr>
+                        
+                        <td style="background-color:lightblue; text-align: right;" >Nombre:</td>                        <!--Color del fonde de la celda azulclaroy alineado a la derecha-->
+                        <td><input type="text" name="nombre"/></td>                                                        <!--Cuadro de texto.-->   
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="background-color:lightblue; text-align: right;" >Apellidos:</td>                     <!--Color del fonde de la celda azulclaroy alineado a la derecha.-->
+                        <td><input type="text" name="apellidos" size="30"/></td>                                           <!--Cuadro de texto con un tamaño de 30.--> 
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="background-color:lightblue; text-align: right;" >Correo electrónico:</td>            <!--Color del fonde de la celda azulclaroy alineado a la derecha.-->
+                        <td><input type="email" name="email" size="40" value="@"/></td>                                    <!--Cuadro para exclusivo E-mail con un tamaño de 40.-->
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="background-color:lightblue; text-align: right;" >Población:</td>                     <!--Color del fonde de la celda azulclaroy alineado a la derecha.-->
+                        <td><input type="text" name="poblacion" size="10"/></td>                                           <!--Cuadro de texto con un tamaño de 10.--> 
+
+                    </tr>
+
+                    <tr>
+
+                        <td style="background-color:lightblue; text-align: right;" >Provincia:</td>                     <!--Color del fonde de la celda azulclaroy alineado a la derecha.-->
+                        <td><input type="text" name="provincia" size="10"/></td>                                           <!--Cuadro de texto con un tamaño de 10.-->  
+
+                    </tr>
+
+                </table>
+                <!--Fin de la Tabla de datos personales--> 
+
+            </fieldset>
+            <!--Fin de Datos Personales-->
+
+            <br/>                                                                                                         <!--Salto de linea.-->
+
+            <!--Inicio de mas datos-->
+            <fieldset style="border: 6px double black ;">                                                               <!--Borde del formulario de 6px, tipo double y de color negro-->   
+                
+                <legend>mas datos</legend>                                                                                <!--Titulo de la sección.-->
+
+                <!--Inicio de la Tabla mas datos-->
+                <table style="width:100%;">
+                                                                                                                          <!--Tabla que ocupe 100% recuadro.-->
+                    <tr>
+
+                        <td  style="padding-left:14px; padding-top:10px; padding-bottom:10px;">                           <!--celda con un padding izquierdo 14px, padding arriba 10px, padding abajo 10px-->
+                            
+                                <label for="edad"> <b>Edad:</b> </label>                                                  
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+
+                                <input type="radio" name="Edad" id="niño"  value="0-20"/>                                  <!--Casilla Selección unica-->
+                                <label for="diurno">0-20</label>
+                                
+                                <br/>                                                                                     <!--Salto de linea.-->
+            
+                                <input type="radio" name="Edad" id="adolescente"  value="20-40" checked="checked"/>              <!--Casilla Selección unica, con dicha opción pre-seleccionada.-->
+                                <label for="nocturno">20-40</label> 
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+            
+                                <input type="radio" name="Edad" id="adulto"  value="40-60"/>                                <!--Casilla Selección unica.-->                      
+                                <label for="vespertino">40-60</label> 
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+                                
+                                <input type="radio" name="Edad" id="anciano" value="60-100"/>                              <!--Casilla Selección unica.-->                      
+                                <label for="vespertino">60-100</label> 
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+                               
+                        </td>
+
+                        <td style="padding-left:14px; padding-top:10px; padding-bottom:10px;">                            <!--celda con un padding izquierdo 14px, padding arriba 10px, padding abajo 10px-->
+                           
+                                <label for="conocer"> <b>¿Cómo nos conociste?</b> </label>
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+
+                                <input type="checkbox" name="conocer1" id="conocer1" value="amigo"/>                       <!--Casilla de selección multiple.-->
+                                <label for="conocer1">A través de un amigo</label>
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+
+                                <input type="checkbox" name="conocer2" id="conocer2" value="buscador"/>                    <!--Casilla de selección multiple.-->
+                                <label for="conocer2">A través de un buscador</label>
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+
+                                <input type="checkbox" name="conocer3" id="conocer3" value="red"/>                         <!--Casilla de selección multiple.-->
+                                <label for="conocer3">Navegando por la red</label>
+
+                                <br/>                                                                                     <!--Salto de linea.-->
+
+                                <input type="checkbox" name="conocer4" id="conocer4" value="otros"/>                       <!--Casilla de selección multiple.-->
+                                <label for="conocer4">Otros</label>
+                            
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td style="padding-left:14px; padding-top: 14px; padding-bottom:30px;">                           <!--celda con un padding izquierdo 14px, padding arriba 14px, padding abajo 30px-->
+
+                            <label for="opinion"><b>Opinión sobre nuestra página web</b></label>
+                            <br/>                                                                                                                       <!--Salto de linea.-->
+                            <textarea name="opinion" id="opinion" cols="50" rows="6" placeholder="Escriba aquí su opinión..."></textarea>               <!--recuadro de texto con varias lineas,-->
+                                                                                                                                                        <!--con texto que se borra al escribir.-->
+                        </td>
+
+                        <td style="padding-left:14px;  padding-bottom:20px;">                                                                           <!--celda con un padding izquierdo 14px, padding abajo 20px-->
+                            
+                            <br/>                                                                                                                       <!--Salto de linea.-->
+                            <label for="sugerencia"><b>Tiene alguna sugerencia...</b></label>
+                            <br/>                                                                                                                       <!--Salto de linea.-->
+                            <textarea name="sugerencia" id="sugerencia" cols="50" rows="6" placeholder="Escriba aquí sus sugerencía..."></textarea>     <!--recuadro de texto con varias lineas,-->
+                                                                                                                                                        <!--con texto que se borra al escribir.-->
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td colspan="2" style="padding-left:14px; padding-top:60px;">                                                                   <!--celda con un padding izquierdo 14px, padding arriba 60px-->
+                            <label for="navegar"> <b>¿Cuanto navegas por internet?</b> (Señala la opción que más se acerque)</label>
+                            <br/>                                                                                                                       <!--Salto de linea.-->
+                            <select name="navegar" size="2">                                                                                            <!--Lista de selección, solo una selección-->
+                                <option value="2">2 hora al día</option>
+                                <option value="3">4 horas al día</option>
+                                <option value="5">5 horas al día</option>
+                                <option value="6">6 horas al día</option>
+                                <option value="7">7 horas al día</option>
+                              </select>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <!--Fin de la Tabla mas datos-->
+            </fieldset>
+            <!--Fin de mas datos-->
+            
+            <br/>                                                                                                                       <!--Salto de linea.-->
+
+            <!--Inicio de los botones enviar y borrar el formulario-->
+            <table style="margin:auto;">                                        <!--Botones alineados en el centro.-->
+
+                <tr>
+                    <td> <input type="submit" value="Enviar datos"/>  </td>      <!--Botón de enviar.-->
+                    <td> <input type="reset" value="Limpiar datos"/>  </td>      <!--Botón de Borrar todo el formulario.-->
+                </tr>
+
+            </table>
+            <!--Fin de los botones enviar y borrar el formulario-->
+      
+        </form>
+        <!--Fin del Formulario-->
+    </body>
+</html>

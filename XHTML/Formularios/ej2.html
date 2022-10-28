@@ -1,0 +1,160 @@
+<!--
+    Pagina: Ej2Formularios.
+    Lenguaje: xhtml.
+    Autor: Borxo García.
+    Versión: 1.0V.
+-->
+
+<!-- DOCTYPE. Describe del tipo de documento -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <!--Cabecera.Incluye los metadatos -->
+    <head>
+        <title>Ej2Formularios</title>                                                            <!--Titulo de la pagina.-->
+	    <meta http-equiv="Content-Type" content="text/html; charsets=UTF-8" />                   <!--Tipo de caracteres utilizados.-->
+        
+        <!--Estilos-->
+        <style>
+            h1{
+                text-align: center;
+                color:blue;
+              }
+            label{
+                    color: red;
+                 }
+            p{  
+                color:red;
+             }
+
+        </style>
+
+    </head>
+
+    <!--Cuerpo. Parte principal de la pagina-->
+    <body>
+        <h1>FICHA DE ALUMNO</h1>                                                                   <!--Titulo de la pagina.-->
+        
+        <!--Inicio del Formulario-->
+        <form action="FormularioEnviado.html" method="get">                                        <!--Vinculado a FormularioEnviado y con el metodo "get" para comprobar los datos enviados.--> 
+            
+            <!--Inicio de la ficha-->
+            <fieldset>                                     
+
+                <!--Inicio del Primer Apartado-->
+                <p style="color:blue;">
+
+                    <label for="dni">dime tu DNI (8 digitos y una letra-da igual mayusculas que minusculas-)</label>
+                    <input type="text" name="dni" pattern="[0-9]{8}[A-Z a-z]{1}"/>                                       <!--Cuadro de texto con requisito de que deben ser 8 numeros y una letra.-->                  
+                                                                                        
+                    <br/>                                                                                               <!--Salto de linea.-->
+                    <br/>                                                                                               <!--Salto de linea.-->
+
+                    Teclea fecha de nacimiento:
+
+                    <br/>                                                                                               <!--Salto de linea.-->
+                    <br/>                                                                                               <!--Salto de linea.-->
+                    
+                    <label for="año_nacimiento"> Teclea año de nacimiento:</label>
+                    <input type="number" name="año_nacimiento" min="1" max="3000"/>                                      <!--Cuadro numerico con un rango 1 a 3000.-->
+                    
+                    <label style="margin-left:30px;" for="mes_nacimiento">Selecciona mes..:</label>                     <!--Etiqueta con un margen izquierdo de 30px.-->
+                        
+                    <select name="mes_nacimiento" id="mes_nacimiento">                                                  <!--Lista desplegable con los meses.-->
+                        <option value="enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                        <option value="marzo">Marzo</option>
+                        <option value="abril">Abril</option>      
+                        <option value="mayo">Mayo</option>
+                        <option value="junio">Junio</option>
+                        <option value="julio">Julio</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="septiembre">Septiembre</option>
+                        <option value="octubre">Octubre</option>
+                        <option value="noviembre">Noviembre</option>
+                        <option value="diciembre">Diciembre</option>
+                    </select>
+                    
+                    <label style="margin-left:30px;" for="dia_nacimiento">Teclea dia..:</label>                         <!--Etiqueta con un margen izquierdo de 30px.-->
+                    <input type="number" name="dia_nacimiento" min="1" max="31"/>                                       <!--Cuadro numerico con un rango 1 a 31.-->
+                </p>
+                <!--Fin del Primer Apartado-->
+
+                <hr/>                                                                                                   <!--Barra horizontal.-->
+                
+                <!--Inicio del segundo Apartado-->
+                <p>
+                    <label for="Curso">Selecciona el curso en el que estás..:</label>
+                    
+                    <select name="Curso" id="Curso">                                                                    <!--Lista desplegable con los cursos.-->
+                        <option value="primero SMR">Primero SMR</option>
+                        <option value="segundo SMR">Segundo SMR</option>
+                        <option value="primero ASIR">Primero ASIR</option>
+                        <option value="segundo ASIR">Segundo ASIR</option>      
+                        <option value="primero ME">Primero ME</option>
+                        <option value="segundo ME">Segundo ME</option>
+                    </select>
+                </p>
+                <!-- Fin del segundo Apartado-->
+
+                <hr/>                                                                                                   <!--Barra horizontal.-->
+
+                <!--Inicio del tercero Apartado-->
+                <p>
+                    Elige 3 materias optavias
+
+                    <input type="checkbox" name="optativa1" id="optativa1" value="ingles"/>                              <!--Casilla de selección multiple.-->
+                    <label style="color:blue;"  for="ingles">Ingles</label>
+
+                    <input type="checkbox" name="optativa2" id="optativa2" value="frances"/>                             <!--Casilla de selección multiple.-->               
+                    <label style="color:blue;" for="frances">Francés</label>
+
+                    <input type="checkbox" name="optativa3" id="optativa3" value="deporte"/>                             <!--Casilla de selección multiple.-->               
+                    <label style="color:blue;" for="deporte">Deporte</label>
+
+                    <input type="checkbox" name="optativa4" id="optativa4" value="astronomia"/>                          <!--Casilla de selección multiple.-->             
+                    <label style="color:blue;" for="astronomia">Astronomia</label>
+
+                    <input type="checkbox" name="optativa5" id="optativa5" value="historia"/>                            <!--Casilla de selección multiple.-->            
+                    <label style="color:blue;" for="historia">Historia</label>
+
+                    <input type="checkbox" name="optativa6" id="optativa6" value="pagina"/>                          <!--Casilla de selección multiple.-->             
+                    <label style="color:blue;" for="pagina">Pagina web</label>
+
+                    <input type="checkbox" name="optativa7" id="optativa7" value="redes"/>                               <!--Casilla de selección multiple.-->   
+                    <label style="color:blue;" for="redes">Redes</label>
+                    
+                    <hr/>                                                                                               <!--Barra horizontal.-->
+                </p>
+                <!--Fin del tercero Apartado-->
+
+                <!--Inicio del Cuarto Apartado-->
+                <p>
+                    Selecciona el turno: 
+                    <input type="radio" name="turno" id="diurno"  value="diurno" checked="checked"/>                     <!--Casilla Selección unica, con dicha opción pre-seleccionada.-->
+                    <label style="color:blue;" for="diurno">Diurno</label>
+
+                    <input type="radio" name="turno" id="nocturno"  value="nocturno"/>                                   <!--Casilla Selección unica.-->
+                    <label style="color:blue;" for="nocturno">Nocturno</label> 
+
+                    <input type="radio" name="turno" id="vespertino"  value="vespertino"/>                               <!--Casilla Selección unica.-->                      
+                    <label style="color:blue;" for="vespertino">Vespertino</label> 
+                </p>
+                <!--Fin del Cuarto Apartado-->
+
+                <hr/>                                                                                                   <!--Barra horizontal.-->
+
+                <!--Inicio de los botones enviar y borrar el formulario-->
+                <p style="text-align:center;">                                                                          <!--Botones alineados en el centro.-->
+                    <input type="submit" value="Enviar datos"/>                                                          <!--Botón de enviar.-->
+                    <input type="reset" value="Limpiar datos"/>                                                          <!--Botón de Borrar todo el formulario.-->
+                </p>
+                <!--Fin de los botones enviar y borrar el formulario-->
+
+
+            </fieldset>
+            <!--Fin de Datos Personales-->
+        </form>
+        <!--Fin del Formulario-->
+    </body>
+</html>
